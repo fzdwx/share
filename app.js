@@ -85,7 +85,7 @@ button.onclick = function () {
         }
     }
 
-}; \
+};
 
 function invokeGetDisplayMedia(success) {
     const constraints = {
