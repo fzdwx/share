@@ -1,0 +1,35 @@
+<!-- index.html -->
+
+<style>
+    html, body {
+        margin: 0!important;
+        padding: 0!important;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1em;
+    }
+
+    video {
+       width: 40%;
+       border-radius: 5px;
+       border: 1px solid black;
+   }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share screen</title>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <h1><code>Share your screen</h1>
+
+        <video controls autoplay playsinline muted="false" volume=0></video>
+        <br><br>
+        <button id="start">Start</button>
+        
+        <script src="app.js"> </script> 
+      </div>
+</body>
